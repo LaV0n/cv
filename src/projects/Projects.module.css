@@ -1,26 +1,27 @@
-.skillsBlock {
+.projectsBlock {
     height: 100vh;
-    background-color: var(--secondColor);
+    background-color: var(--mainColor);
 }
 
-.skillsContainer {
+.projectsContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     color: white;
 }
 
-.skills {
-    border: 1px solid #fdfdfd;
+.projects {
+    border: 1px solid white;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 @media screen and (max-width: 768px){
-    .skills{
+    .projects{
         flex-direction: column;
         align-items: center;
         gap:20px;
     }
+
 }
