@@ -1,0 +1,14 @@
+.main {
+    height: 100vh;
+    background-color: #b271ec;
+}
+.creatings {
+    width: 300px;
+    background-color: azure;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+}
