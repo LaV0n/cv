@@ -4,3 +4,7 @@
  width: 300px;
  justify-content: space-between;
 }
+.nav a {
+ color: white;
+ text-decoration: none;
+}

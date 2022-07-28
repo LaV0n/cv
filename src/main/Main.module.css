@@ -1,14 +1,15 @@
 .main {
     height: 100vh;
-    background-color: #b271ec;
+    background-color: var(--mainColor);
 }
 .creatings {
     width: 300px;
-    background-color: azure;
+    background-color: var(--secondColor);
+    color: white;
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: aliceblue;
+    background-color: white;
 }
