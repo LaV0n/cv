@@ -6,7 +6,9 @@ import style from "./Project.module.css";
 export const Project = (props) => {
     return (
         <div className={style.projectBlock}>
-               <a href="" className={style.icon}>LINK</a>
+            <div className={style.img}>
+                <a href="" className={style.linkButton}>LOOK</a>
+            </div>
                 <h3>{props.title}</h3>
                 <div className={style.description}>
                     <span>{props.description}</span>

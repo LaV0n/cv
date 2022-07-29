@@ -1,5 +1,5 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--mainColor);
 }
 
@@ -16,8 +16,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1000px){
     .projects{
         flex-direction: column;
         align-items: center;
