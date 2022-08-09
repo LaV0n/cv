@@ -1,5 +1,5 @@
 .footerBlock {
-    height: 100vh;
+
     background-color: var(--mainColor);
 }
 
@@ -8,6 +8,7 @@
     justify-content: space-between;
     flex-direction: column;
     color: white;
+    min-height: auto;
 }
 
 .block {
