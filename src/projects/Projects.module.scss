@@ -1,12 +1,14 @@
+@import "../common/styles/sass/variables";
+
 .projectsBlock {
   min-height: 100vh;
-  background-color: var(--mainColor);
+  background-color: $mainColor;
 
   .projectsContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    color: white;
+    color: $textColor;
 
     .projects {
       border: 1px solid white;
