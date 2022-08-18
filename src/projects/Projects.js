@@ -19,7 +19,7 @@ export const Projects = () => {
     return (
         <div className={style.projectsBlock}>
             < div className={`${styleContainer.container} ${style.projectsContainer}`}>
-              <Title title="Projects"/>
+              <Title title="Projects" description={"LATEST WORKS"}/>
                 <div className={style.projects}>
                     <Project style = {project1Img} title="first" description="11111111"/>
                     <Project style = {project2Img} title="second" description="2222222"/>

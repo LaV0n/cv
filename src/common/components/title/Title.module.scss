@@ -1,0 +1,19 @@
+@import "../../../common/styles/sass/variables";
+.title{
+    margin: 0 0 60px;
+}
+.h3_title {
+    color: $textColor;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin: 50px 0 10px;
+}
+.description {
+    color: $activeColor;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
