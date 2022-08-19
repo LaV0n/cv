@@ -1,0 +1,24 @@
+@import "../common/styles/sass/variables";
+
+.footerBlock {
+  background-color: $mainColor;
+
+  .footerContainer {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: $textColor;
+    min-height: auto;
+
+    .block {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+
+
+
+
