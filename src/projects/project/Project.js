@@ -7,9 +7,13 @@ export const Project = (props) => {
     return (
         <div className={styles.projectBlock}>
             <div className={styles.img} style={props.style}>
-                <a href="" className={styles.linkButton}>LOOK</a>
+                <a href="" className={styles.linkButton}>
+                    <div className={styles.linkBack}>
+                        LOOK
+                    </div>
+                        </a>
             </div>
-                <h3>{props.title}</h3>
+                <h3 className={styles.h3_project}>{props.title}</h3>
                 <div className={styles.description}>
                     <span>{props.description}</span>
                 </div>
