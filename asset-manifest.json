@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.e19bf096.css",
-    "main.js": "/cv/static/js/main.d5389ace.js",
+    "main.css": "/cv/static/css/main.107d61f9.css",
+    "main.js": "/cv/static/js/main.0d9d7f60.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/LavonTatry.jpg": "/cv/static/media/LavonTatry.f8e83f21d073898b72cf.jpg",
     "static/media/network.jpg": "/cv/static/media/network.d3c045f411852fba4d25.jpg",
@@ -16,12 +16,12 @@
     "static/media/github-svgrepo-com.svg": "/cv/static/media/github-svgrepo-com.fc0ffe042a9582d2a394e1c609baa9f2.svg",
     "index.html": "/cv/index.html",
     "static/media/facebook-svgrepo-com.svg": "/cv/static/media/facebook-svgrepo-com.0d5e6220ef91de7748ed9106e95a21e0.svg",
-    "main.e19bf096.css.map": "/cv/static/css/main.e19bf096.css.map",
-    "main.d5389ace.js.map": "/cv/static/js/main.d5389ace.js.map",
+    "main.107d61f9.css.map": "/cv/static/css/main.107d61f9.css.map",
+    "main.0d9d7f60.js.map": "/cv/static/js/main.0d9d7f60.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e19bf096.css",
-    "static/js/main.d5389ace.js"
+    "static/css/main.107d61f9.css",
+    "static/js/main.0d9d7f60.js"
   ]
 }
