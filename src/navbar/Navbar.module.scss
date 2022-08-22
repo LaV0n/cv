@@ -1,15 +1,39 @@
 @import "../common/styles/sass/variables";
 
 .nav {
- display: flex;
- width: 500px;
- justify-content: space-between;
- margin-right: 50px;
- a {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  margin-right: 50px;
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
+
+  a {
+    color: $textColor;
+    text-decoration: none;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.burgerMenu {
+  display: none;
+  padding-right: 20px;
+  color: #00dfce;
+  @media screen and (max-width: 500px) {
+    display: block;
+  }
+}
+
+.link {
   color: $textColor;
   text-decoration: none;
   font-weight: 800;
   display: flex;
-  align-items: center;
- }
+  justify-items: center;
+  padding-left: 20px;
 }
+
+
