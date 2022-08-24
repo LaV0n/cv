@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.4bf1376e.css",
+    "main.css": "/cv/static/css/main.4f54263a.css",
     "main.js": "/cv/static/js/main.fd36c61c.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/LavonTatry.jpg": "/cv/static/media/LavonTatry.f8e83f21d073898b72cf.jpg",
@@ -16,12 +16,12 @@
     "static/media/github-svgrepo-com.svg": "/cv/static/media/github-svgrepo-com.fc0ffe042a9582d2a394e1c609baa9f2.svg",
     "index.html": "/cv/index.html",
     "static/media/facebook-svgrepo-com.svg": "/cv/static/media/facebook-svgrepo-com.0d5e6220ef91de7748ed9106e95a21e0.svg",
-    "main.4bf1376e.css.map": "/cv/static/css/main.4bf1376e.css.map",
+    "main.4f54263a.css.map": "/cv/static/css/main.4f54263a.css.map",
     "main.fd36c61c.js.map": "/cv/static/js/main.fd36c61c.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bf1376e.css",
+    "static/css/main.4f54263a.css",
     "static/js/main.fd36c61c.js"
   ]
 }
