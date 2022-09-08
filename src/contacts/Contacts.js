@@ -49,8 +49,8 @@ const CssTextField = styled(TextField)({
 
 export const Contacts = () => {
     return (
-        <ThemeProvider theme={theme}>
-            <div className={style.contactsBlock}>
+        <ThemeProvider theme={theme} >
+            <div id='contacts' className={style.contactsBlock}>
                 < div className={`${styleContainer.container} ${style.contactsContainer}`}>
                     <Title title={'Contacts'} description={'LET\'S TALK'}/>
                     <div className={style.block}>

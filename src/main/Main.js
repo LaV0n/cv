@@ -6,9 +6,9 @@ import photo from '../assets/image/LavonTatry.jpg'
 
 export const Main = () => {
     return (
-        <div className={style.main}>
+        <div id='#main' className={style.main}>
             < div className={`${styleContainer.container} ${style.mainContainer}`}>
-                <img src={photo} className={style.photo}></img>
+                <img src={photo} className={style.photo} alt='0'></img>
                 <div className={style.greetings}>
                     <h1 className={style.name}>
                     <span>Leanid

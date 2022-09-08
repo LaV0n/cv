@@ -5,13 +5,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 
 const options = [
-    <a className={style.link} href="">main </a>,
-    <a className={style.link} href="">skills</a>,
-    <a className={style.link} href="">projects</a>,
-    <a className={style.link} href="">contacts</a>
+    <a className={style.link} href="#main">main </a>,
+    <a className={style.link} href="#skills">skills</a>,
+    <a className={style.link} href="#projects">projects</a>,
+    <a className={style.link} href="#contacts">contacts</a>
 ];
-
-const ITEM_HEIGHT = 48;
 
 export const Navbar = () => {
 
@@ -27,10 +25,10 @@ export const Navbar = () => {
 
     return (<>
             <div className={style.nav}>
-                <a href="">main </a>
-                <a href="">skills</a>
-                <a href="">projects</a>
-                <a href="">contacts</a>
+                <a href="#main">main </a>
+                <a href="#skills">skills</a>
+                <a href="#projects">projects</a>
+                <a href="#contacts">contacts</a>
             </div>
             <div className={style.burgerMenu}>
                 <IconButton

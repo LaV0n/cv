@@ -12,7 +12,7 @@ import tsIcon from "../assets/icon/typescript-svgrepo-com.svg"
 
 export const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div id ='skills' className={style.skillsBlock}>
             < div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'} description={'DEVELOPING ON'}/>
                 <div className={style.skills}>
