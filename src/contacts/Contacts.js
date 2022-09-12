@@ -4,6 +4,7 @@ import styleContainer from "./../common/styles/Container.module.css"
 import {Title} from "../common/components/title/Title";
 import {createMuiTheme,  ThemeProvider} from '@mui/material/styles';
 import {Button, styled, TextField} from "@mui/material";
+import Slide from 'react-reveal/Slide'
 
 const theme = createMuiTheme({
     status: {
@@ -52,6 +53,7 @@ export const Contacts = () => {
         <ThemeProvider theme={theme} >
             <div id='contacts' className={style.contactsBlock}>
                 < div className={`${styleContainer.container} ${style.contactsContainer}`}>
+                    <Slide bottom>
                     <Title title={'Contacts'} description={'LET\'S TALK'}/>
                     <div className={style.block}>
                         <form className={style.form}>
@@ -79,6 +81,7 @@ export const Contacts = () => {
                                 size="large"
                         >send</Button>
                     </div>
+                    </Slide>
                 </div>
             </div>
         </ThemeProvider>
