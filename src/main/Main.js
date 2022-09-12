@@ -3,6 +3,7 @@ import style from "./Main.module.scss";
 import styleContainer from "./../common/styles/Container.module.css"
 import photo from '../assets/image/LavonTatry.jpg'
 import Slide from 'react-reveal/Slide'
+import ReactTypingEffect from 'react-typing-effect';
 
 
 export const Main = () => {
@@ -17,8 +18,17 @@ export const Main = () => {
                         <br/>Aliakhnovich</span>
                         </h1>
                         <div className={style.description}>
-                            <span className={style.title}>Programmer</span>
-                            <p>Hello! I am Web Developer</p>
+                            <span className={style.title}>
+                                <ReactTypingEffect text={['FRONTEND DEVELOPER']}/>
+                                </span>
+                            <p>I'm an ambitious and motivated
+                                Frontend  Developer. I'm ready to
+                                work in a team but don't afraid of
+                                looking for the solutions on my own.
+                                I would like to work in a dynamic
+                                company where I could develop as a
+                                specialist and develop skills in field of
+                                backend and AI.</p>
                         </div>
                     </div>
                 </Slide>
