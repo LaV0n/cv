@@ -1,7 +1,8 @@
 import React from 'react';
 import style from "./Navbar.module.scss";
-import {  IconButton, Menu, MenuItem} from "@mui/material";
+import {IconButton, Menu, MenuItem} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
+import {Link, animateScroll as scroll} from "react-scroll";
 
 
 const options = [
@@ -25,10 +26,35 @@ export const Navbar = () => {
 
     return (<>
             <div className={style.nav}>
-                <a href="#main">main </a>
-                <a href="#skills">skills</a>
-                <a href="#projects">projects</a>
-                <a href="#contacts">contacts</a>
+                <Link activeClass={style.active}
+                      to="main"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                >main</Link>
+                <Link activeClass={style.active}
+                      to='skills'
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                >skills</Link>
+                <Link activeClass={style.active}
+                      to='projects'
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                >projects</Link>
+                <Link activeClass={style.active}
+                      to='contacts'
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                >contacts
+                </Link>
             </div>
             <div className={style.burgerMenu}>
                 <IconButton
@@ -39,7 +65,7 @@ export const Navbar = () => {
                     onClick={handleClick}
                     color={"inherit"}
                 >
-                 <MenuIcon/>
+                    <MenuIcon/>
                 </IconButton>
                 <Menu
                     id="long-menu"
@@ -52,7 +78,7 @@ export const Navbar = () => {
                     PaperProps={{
                         style: {
                             width: '100%',
-                            backgroundColor:'#373C40FF'
+                            backgroundColor: '#373C40FF'
                         },
                     }}
                 >
@@ -65,7 +91,8 @@ export const Navbar = () => {
                 </Menu>
             </div>
         </>
-    );
+    )
+        ;
 }
 
 

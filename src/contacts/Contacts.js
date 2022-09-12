@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./Contacts.module.scss";
 import styleContainer from "./../common/styles/Container.module.css"
 import {Title} from "../common/components/title/Title";
-import {createMuiTheme,  ThemeProvider} from '@mui/material/styles';
+import {createMuiTheme, ThemeProvider} from '@mui/material/styles';
 import {Button, styled, TextField} from "@mui/material";
 import Slide from 'react-reveal/Slide'
 
@@ -50,37 +50,38 @@ const CssTextField = styled(TextField)({
 
 export const Contacts = () => {
     return (
-        <ThemeProvider theme={theme} >
+        <ThemeProvider theme={theme}>
             <div id='contacts' className={style.contactsBlock}>
                 < div className={`${styleContainer.container} ${style.contactsContainer}`}>
                     <Slide bottom>
-                    <Title title={'Contacts'} description={'LET\'S TALK'}/>
-                    <div className={style.block}>
-                        <form className={style.form}>
-                            <CssTextField id="nameInput"
-                                       label="FULL NAME *"
-                                       variant="outlined"
-                                       margin="normal"
-                            />
-                            <CssTextField id="mailInput"
-                                       label="EMAIL ADDRESS *"
-                                       variant="outlined"
-                                       margin="normal"
-                            />
-                            <CssTextField id="massageInput"
-                                          label="MESSAGE *"
-                                          variant="outlined"
-                                          multiline
-                                          rows={4}
-                                          margin="normal"
-                                          />
-                        </form>
-                        <Button type='submit'
-                                variant="outlined"
-                                color="button"
-                                size="large"
-                        >send</Button>
-                    </div>
+                        <Title title={'Contacts'} description={'LET\'S TALK'}/>
+                        <div className={style.block}>
+                            <form className={style.form}>
+                                <CssTextField id="nameInput"
+                                              label="FULL NAME *"
+                                              variant="outlined"
+                                              margin="normal"
+                                />
+                                <CssTextField id="mailInput"
+                                              type='email'
+                                              label="EMAIL ADDRESS *"
+                                              variant="outlined"
+                                              margin="normal"
+                                />
+                                <CssTextField id="massageInput"
+                                              label="MESSAGE *"
+                                              variant="outlined"
+                                              multiline
+                                              rows={4}
+                                              margin="normal"
+                                />
+                                <Button type='submit'
+                                        variant="outlined"
+                                        color="button"
+                                        size="large"
+                                >send</Button>
+                            </form>
+                        </div>
                     </Slide>
                 </div>
             </div>

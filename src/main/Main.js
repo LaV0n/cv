@@ -8,7 +8,7 @@ import ReactTypingEffect from 'react-typing-effect';
 
 export const Main = () => {
     return (
-        <div id='#main' className={style.main}>
+        <div id='main' className={style.main}>
             < div className={`${styleContainer.container} ${style.mainContainer}`}>
                 <Slide bottom>
                     <img src={photo} className={style.photo} alt='0'/>
