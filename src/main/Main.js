@@ -22,13 +22,15 @@ export const Main = () => {
                                 <ReactTypingEffect text={['FRONTEND DEVELOPER']}/>
                                 </span>
                             <p>I'm an ambitious and motivated
-                                Frontend Developer. I'm ready to
-                                work in a team but don't afraid of
-                                looking for the solutions on my own.
-                                I would like to work in a dynamic
-                                company where I could develop as a
-                                specialist and develop skills in field of
-                                backend and AI.</p>
+                                Frontend Developer with experience
+                                in creating SPA using React, Redux,
+                                TypeScript. I'm ready to work in a
+                                team but don't afraid of looking for
+                                the solutions on my own. I would
+                                like to work in a dynamic company
+                                where I could develop as a specialist
+                                and develop skills in field of backend
+                                and AI.</p>
                         </div>
                     </div>
                 </Slide>

@@ -2,7 +2,7 @@
 
 
 .skillsBlock {
-  min-height: 100vh;
+  height: 100%;
   background-color: $secondColor;
   box-sizing: border-box;
 
@@ -11,6 +11,8 @@
     justify-content: flex-start;
     flex-direction: column;
     color: $textColor;
+    min-height: auto;
+    padding-bottom: 50px;
 
     .skills {
       width: 100%;

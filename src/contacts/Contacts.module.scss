@@ -7,6 +7,8 @@
         align-items: center;
         flex-direction: column;
         color: $textColor;
+        min-height: 100%;
+        padding-bottom: 50px;
         .block {
             width: 80%;
             height: 400px;

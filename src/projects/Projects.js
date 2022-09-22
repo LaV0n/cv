@@ -10,6 +10,7 @@ import shelterImg from './../assets/image/shelter.jpg'
 import memoryGameImg from '../assets/image/memoryGame.png'
 
 
+
 export const Projects = () => {
     const projectImg ={
       first:{
@@ -24,6 +25,9 @@ export const Projects = () => {
         fourth:{
             backgroundImage: `url(${memoryGameImg})`,
         },
+        fifth:{
+            backgroundImage: `url(${memoryGameImg})`,
+        },
     }
 
 
@@ -35,12 +39,12 @@ export const Projects = () => {
                     <div className={style.projects}>
                         <Project style={projectImg.second}
                                  title="todolist"
-                                 description="lists for yours tasks"
+                                 description="personal todo lists"
                                  link={''}
                         />
                         <Project style={projectImg.first}
                                  title="social network"
-                                 description="connect with your friends"
+                                 description="SPA with API"
                                  link={''}
                         />
                         <Project style={projectImg.third}
@@ -51,6 +55,11 @@ export const Projects = () => {
                         <Project style={projectImg.fourth}
                                  title="Memory card game"
                                  description="card game on  vanilla JS"
+                                 link={'https://lav0n.github.io/memory-game/'}
+                        />
+                        <Project style={projectImg.fifth}
+                                 title="Learning cards"
+                                 description="learning cards with individual account"
                                  link={'https://lav0n.github.io/memory-game/'}
                         />
                     </div>
