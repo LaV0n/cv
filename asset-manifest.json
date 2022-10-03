@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.16b60a6b.css",
-    "main.js": "/cv/static/js/main.1db912df.js",
+    "main.js": "/cv/static/js/main.023340b1.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/memoryGame.png": "/cv/static/media/memoryGame.493d6113224b29a3014a.png",
+    "static/media/socialNetwork.png": "/cv/static/media/socialNetwork.d07468c9e36b790dadd9.png",
     "static/media/LavonTatry.jpg": "/cv/static/media/LavonTatry.f8e83f21d073898b72cf.jpg",
     "static/media/shelter.jpg": "/cv/static/media/shelter.174293bb200d6deb9c3d.jpg",
-    "static/media/network.jpg": "/cv/static/media/network.d3c045f411852fba4d25.jpg",
-    "static/media/todolist.jpg": "/cv/static/media/todolist.4f82809ef4aa494ea31b.jpg",
+    "static/media/friday.png": "/cv/static/media/friday.39a367846478f4feba99.png",
+    "static/media/todolists.png": "/cv/static/media/todolists.69729d0fe190d677ff8a.png",
     "static/media/codewars-svgrepo-com.svg": "/cv/static/media/codewars-svgrepo-com.d80801c809e4e9f5717430f8713802df.svg",
     "static/media/api.png": "/cv/static/media/api.3b1f22a2427ec70c0742.png",
     "static/media/css-svgrepo-com.svg": "/cv/static/media/css-svgrepo-com.a2de3175fe417c7165a8f7f64fd75af8.svg",
@@ -19,11 +20,11 @@
     "index.html": "/cv/index.html",
     "static/media/telegram-svgrepo-com.svg": "/cv/static/media/telegram-svgrepo-com.321a02657812a2b333e11ef22b7509d5.svg",
     "main.16b60a6b.css.map": "/cv/static/css/main.16b60a6b.css.map",
-    "main.1db912df.js.map": "/cv/static/js/main.1db912df.js.map",
+    "main.023340b1.js.map": "/cv/static/js/main.023340b1.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16b60a6b.css",
-    "static/js/main.1db912df.js"
+    "static/js/main.023340b1.js"
   ]
 }
