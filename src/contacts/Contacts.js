@@ -5,6 +5,7 @@ import {Title} from "../common/components/title/Title";
 import {createMuiTheme, ThemeProvider} from '@mui/material/styles';
 import {Button, styled, TextField} from "@mui/material";
 import Slide from 'react-reveal/Slide'
+import axios from "axios";
 
 const theme = createMuiTheme({
     status: {
@@ -49,6 +50,18 @@ const CssTextField = styled(TextField)({
 });
 
 export const Contacts = () => {
+
+    const onSubmitHandler=(event)=>{
+        event.preventDefault();
+        axios.post('https://lavon-gmail-server.herokuapp.com/sendMail',{
+            name:event.target.nameInput.value,
+            email:event.target.mailInput.value,
+            data:event.target.massageInput.value
+        })
+            .then(alert('your message has been send'))
+
+    }
+
     return (
         <ThemeProvider theme={theme}>
             <div id='contacts' className={style.contactsBlock}>
@@ -56,26 +69,26 @@ export const Contacts = () => {
                     <Slide bottom>
                         <Title title={'Contacts'} description={'LET\'S TALK'}/>
                         <div className={style.block}>
-                            <form className={style.form}>
-                                <CssTextField id="nameInput"
+                            <form className={style.form} onSubmit={onSubmitHandler}>
+                                <CssTextField name="nameInput"
                                               label="FULL NAME *"
                                               variant="outlined"
                                               margin="normal"
                                 />
-                                <CssTextField id="mailInput"
+                                <CssTextField name="mailInput"
                                               type='email'
                                               label="EMAIL ADDRESS *"
                                               variant="outlined"
                                               margin="normal"
                                 />
-                                <CssTextField id="massageInput"
+                                <CssTextField name="massageInput"
                                               label="MESSAGE *"
                                               variant="outlined"
                                               multiline
                                               rows={4}
                                               margin="normal"
                                 />
-                                <Button type='submit'
+                                <Button type="submit"
                                         variant="outlined"
                                         color="button"
                                         size="large"
