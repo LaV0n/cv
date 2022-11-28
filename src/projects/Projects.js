@@ -9,8 +9,9 @@ import fridayPJ from "./../assets/image/friday.png"
 import Slide from 'react-reveal/Slide'
 import shelterImg from './../assets/image/shelter.jpg'
 import memoryGameImg from '../assets/image/memoryGame.png'
-
-
+import coffeeShopImg from '../assets/image/coffeeshop.png'
+import lineGameImg from '../assets/image/lineGame.png'
+import chatImg from '../assets/image/chat.png'
 
 export const Projects = () => {
     const projectImg ={
@@ -29,6 +30,15 @@ export const Projects = () => {
         fifth:{
             backgroundImage: `url(${fridayPJ})`,
         },
+        sixth:{
+            backgroundImage:  `url(${coffeeShopImg})`,
+        },
+        seventh:{
+            backgroundImage:  `url(${lineGameImg})`,
+        },
+        eighth:{
+            backgroundImage:  `url(${chatImg})`,
+        }
     }
 
 
@@ -53,6 +63,11 @@ export const Projects = () => {
                                  description="learning cards with individual account"
                                  link={'https://lav0n.github.io/project1/'}
                         />
+                        <Project style={projectImg.sixth}
+                                 title="Coffee Shop APK"
+                                 description="APK for mobile on React Native"
+                                 link={'https://github.com/LaV0n/coffee_shop'}
+                        />
                         <Project style={projectImg.third}
                                  title="Pet's Shelter"
                                  description="task with responsive web design on  vanilla JS"
@@ -62,6 +77,16 @@ export const Projects = () => {
                                  title="Memory card game"
                                  description="card game on  vanilla JS"
                                  link={'https://lav0n.github.io/memory-game/'}
+                        />
+                        <Project style={projectImg.seventh}
+                                 title="Line Game"
+                                 description="Line Game for Browsers on TypeScript"
+                                 link={'https://github.com/LaV0n/line'}
+                        />
+                        <Project style={projectImg.eighth}
+                                 title="Web Chat"
+                                 description="Chat on socket-io with own server"
+                                 link={'https://github.com/LaV0n/chat-websocket-front'}
                         />
                     </div>
                 </Slide>
