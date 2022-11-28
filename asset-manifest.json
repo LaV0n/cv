@@ -1,18 +1,27 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.16b60a6b.css",
-    "main.js": "/cv/static/js/main.99632191.js",
+    "main.js": "/cv/static/js/main.98ebd1d5.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/memoryGame.png": "/cv/static/media/memoryGame.493d6113224b29a3014a.png",
     "static/media/socialNetwork.png": "/cv/static/media/socialNetwork.d07468c9e36b790dadd9.png",
     "static/media/LavonTatry.jpg": "/cv/static/media/LavonTatry.f8e83f21d073898b72cf.jpg",
+    "static/media/lineGame.png": "/cv/static/media/lineGame.73a90a583599bed85e83.png",
+    "static/media/coffeeshop.png": "/cv/static/media/coffeeshop.6a093b212613d3da51e4.png",
     "static/media/shelter.jpg": "/cv/static/media/shelter.174293bb200d6deb9c3d.jpg",
+    "static/media/chat.png": "/cv/static/media/chat.1b59d0baeeb4e3e30bde.png",
     "static/media/friday.png": "/cv/static/media/friday.39a367846478f4feba99.png",
     "static/media/todolists.png": "/cv/static/media/todolists.69729d0fe190d677ff8a.png",
     "static/media/codewars-svgrepo-com.svg": "/cv/static/media/codewars-svgrepo-com.d80801c809e4e9f5717430f8713802df.svg",
     "static/media/api.png": "/cv/static/media/api.3b1f22a2427ec70c0742.png",
+    "static/media/sass-svgrepo-com.svg": "/cv/static/media/sass-svgrepo-com.e925446c9631672fe929a11814453d84.svg",
+    "static/media/icons8-github.svg": "/cv/static/media/icons8-github.492befc923d0e6c12bf5f84655b80512.svg",
+    "static/media/icons8-redux.svg": "/cv/static/media/icons8-redux.18f5d0e18385e9cd02d96eef3c5875ad.svg",
     "static/media/css-svgrepo-com.svg": "/cv/static/media/css-svgrepo-com.a2de3175fe417c7165a8f7f64fd75af8.svg",
+    "static/media/icons8-node-js-96.svg": "/cv/static/media/icons8-node-js-96.f0c78e4b50e01e3204ea52e99e05ce9e.svg",
     "static/media/html-svgrepo-com.svg": "/cv/static/media/html-svgrepo-com.f81396ac1d742cc27615f206db61898d.svg",
+    "static/media/icons8-adobe-photoshop.svg": "/cv/static/media/icons8-adobe-photoshop.2131102992277bf2bf20983d1ab06832.svg",
+    "static/media/mongodb-svgrepo-com.svg": "/cv/static/media/mongodb-svgrepo-com.912930bc39911e6dc659d5e2fe6b9561.svg",
     "static/media/linkedin-logo-svgrepo-com.svg": "/cv/static/media/linkedin-logo-svgrepo-com.b5438c1f9fe29dc7c1cb18f42130bf4e.svg",
     "static/media/typescript-svgrepo-com.svg": "/cv/static/media/typescript-svgrepo-com.90fa1ef623d1a1593e860aef7073d2fc.svg",
     "static/media/react-svgrepo-com.svg": "/cv/static/media/react-svgrepo-com.b19a09c9a54b923f194ce5e9ad9815b0.svg",
@@ -20,11 +29,11 @@
     "index.html": "/cv/index.html",
     "static/media/telegram-svgrepo-com.svg": "/cv/static/media/telegram-svgrepo-com.321a02657812a2b333e11ef22b7509d5.svg",
     "main.16b60a6b.css.map": "/cv/static/css/main.16b60a6b.css.map",
-    "main.99632191.js.map": "/cv/static/js/main.99632191.js.map",
+    "main.98ebd1d5.js.map": "/cv/static/js/main.98ebd1d5.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16b60a6b.css",
-    "static/js/main.99632191.js"
+    "static/js/main.98ebd1d5.js"
   ]
 }
