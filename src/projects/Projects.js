@@ -12,6 +12,8 @@ import memoryGameImg from '../assets/image/memoryGame.png'
 import coffeeShopImg from '../assets/image/coffeeshop.png'
 import lineGameImg from '../assets/image/lineGame.png'
 import chatImg from '../assets/image/chat.png'
+import weatherImg from '../assets/image/weatherAPP.png'
+import rockGameImg from '../assets/image/rockGame.png'
 
 export const Projects = () => {
     const projectImg ={
@@ -38,6 +40,12 @@ export const Projects = () => {
         },
         eighth:{
             backgroundImage:  `url(${chatImg})`,
+        },
+        ninth:{
+            backgroundImage:  `url(${weatherImg})`,
+        },
+        tenth:{
+            backgroundImage:  `url(${rockGameImg})`,
         }
     }
 
@@ -87,6 +95,16 @@ export const Projects = () => {
                                  title="Web Chat"
                                  description="Chat on socket-io with own server"
                                  link={'https://github.com/LaV0n/chat-websocket-front'}
+                        />
+                        <Project style={projectImg.ninth}
+                                 title="Weather APP"
+                                 description="App with responsive design, unit and integration tests."
+                                 link={'https://github.com/LaV0n/weather-app'}
+                        />
+                        <Project style={projectImg.tenth}
+                                 title="Rock Paper Scissors Game"
+                                 description="easy mobile game on React Native with 3 difficult level"
+                                 link={'https://github.com/LaV0n/rock-paper-scissors'}
                         />
                     </div>
                 </Slide>
