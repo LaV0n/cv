@@ -53,7 +53,7 @@ export const Contacts = () => {
 
     const onSubmitHandler=(event)=>{
         event.preventDefault();
-        axios.post('https://lavon-gmail-server.herokuapp.com/sendMail',{
+        axios.post('https://carnation-pointy-dime.glitch.me/sendMail',{
             name:event.target.nameInput.value,
             email:event.target.mailInput.value,
             data:event.target.massageInput.value

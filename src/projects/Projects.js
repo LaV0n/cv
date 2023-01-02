@@ -106,6 +106,9 @@ export const Projects = () => {
                                  description="easy mobile game on React Native with 3 difficult level"
                                  link={'https://github.com/LaV0n/rock-paper-scissors'}
                         />
+                        <div>
+                            <Title></Title>
+                        </div>
                     </div>
                 </Slide>
             </div>
