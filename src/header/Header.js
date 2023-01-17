@@ -15,17 +15,17 @@ export const Header = () => {
 
     useEffect(()=>{
         root.style.setProperty('--thirdColor', checked ?  'rgb(89, 93, 101)': '#a4c3b2');
-        root.style.setProperty('--mainColor', checked ? 'rgb(43,50,58)': '#cce3de');
-        root.style.setProperty('--secondColor', checked ? 'rgb(55, 60, 64)': '#eaf4f4');
-        root.style.setProperty('--activeColor', checked ? 'rgb(0, 223, 206)': '#cce3de');
+        root.style.setProperty('--mainColor', checked ? 'rgb(43,50,58)': '#eaf4f4');
+        root.style.setProperty('--secondColor', checked ? 'rgb(55, 60, 64)': '#cce3de');
+        root.style.setProperty('--activeColor', checked ? 'rgb(0, 223, 206)': '#05668d');
         root.style.setProperty('--textColor', checked ? '#fff': '#000');
     },[checked])
 
     return (
         <div className={style.header} >
             {checked
-                ?<ModeNightIcon onClick={handleChange} style={{color:style.activeColor}}/>
-                :<LightModeIcon onClick={handleChange}/>
+                ?<ModeNightIcon onClick={handleChange} style={{color:style.activeColor,cursor:'pointer'}}/>
+                :<LightModeIcon onClick={handleChange} style={{cursor:'pointer'}}/>
             }
             <Navbar/>
         </div>
