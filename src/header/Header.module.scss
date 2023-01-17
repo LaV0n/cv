@@ -5,7 +5,7 @@
      background-color: $thirdColor;
      display: flex;
      align-items: center;
-     justify-content: flex-end;
+     justify-content: space-between;
      padding: 0 0 0 50px;
      position: fixed;
      left: 50px;
@@ -22,3 +22,10 @@
           border-radius: 0;
      }
  }
+:export {
+     textColor: $textColor;
+     mainColor: $mainColor;
+     secondColor: $secondColor;
+     thirdColor: $thirdColor;
+     activeColor: $activeColor;
+}

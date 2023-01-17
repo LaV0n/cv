@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./Navbar.module.scss";
 import {IconButton, Menu, MenuItem} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
-import {Link, animateScroll as scroll} from "react-scroll";
+import {Link} from "react-scroll";
 
 
 const options = [
@@ -22,7 +22,6 @@ export const Navbar = () => {
     const handleClose = () => {
         setAnchorEl(null);
     };
-
 
     return (<>
             <div className={style.nav}>

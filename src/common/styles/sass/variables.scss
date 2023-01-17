@@ -1,6 +1,9 @@
-$mainColor: rgb(43,50,58);
-$secondColor: rgb(55, 60, 64);
-$thirdColor: rgb(89, 93, 101);
-$activeColor: rgb(0, 223, 206);
-$textColor:#ffff;
-
+$mainColor: var(--mainColor);
+$secondColor: var(--secondColor);
+$thirdColor: var(--thirdColor);
+$activeColor: var(--activeColor);
+$textColor:var(--textColor);
+$textColorDark: #000000;
+$thirdColorDark: #a4c3b2;
+$mainColorDark: #cce3de;
+$secondColorDark: #eaf4f4;
