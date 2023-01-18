@@ -1,3 +1,3 @@
-CV
+# My own portfolio website
 
-https://lav0n.github.io/cv/
+[link](https://lav0n.github.io/cv/)
