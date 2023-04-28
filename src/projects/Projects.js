@@ -56,11 +56,6 @@ export const Projects = () => {
                 <Slide bottom>
                     <Title title="Projects" description={"LATEST WORKS"}/>
                     <div className={style.projects}>
-                        <Project style={projectImg.second}
-                                 title="todolist"
-                                 description="personal todo lists"
-                                 link={'https://lav0n.github.io/it-incubator-todolist/'}
-                        />
                         <Project style={projectImg.first}
                                  title="social network"
                                  description="SPA with REST API"
@@ -71,40 +66,45 @@ export const Projects = () => {
                                  description="learning cards with individual account"
                                  link={'https://lav0n.github.io/project1/'}
                         />
-                        <Project style={projectImg.sixth}
-                                 title="Coffee Shop APK"
-                                 description="APK for mobile on React Native"
-                                 link={'https://github.com/LaV0n/coffee_shop'}
-                        />
-                        <Project style={projectImg.third}
-                                 title="Pet's Shelter"
-                                 description="task with responsive web design on  vanilla JS"
-                                 link={'https://lav0n.github.io/Shelter/'}
-                        />
-                        <Project style={projectImg.fourth}
-                                 title="Memory card game"
-                                 description="card game on  vanilla JS"
-                                 link={'https://lav0n.github.io/memory-game/'}
+                        <Project style={projectImg.ninth}
+                                 title="Weather APP"
+                                 description="App with responsive design, unit and integration tests."
+                                 link={'https://github.com/LaV0n/weather-app'}
                         />
                         <Project style={projectImg.seventh}
-                                 title="Line Game"
-                                 description="Line Game for Browsers on TypeScript"
-                                 link={'https://github.com/LaV0n/line'}
+                                 title="3 browser games"
+                                 description="Simple games for Browsers on TypeScript"
+                                 link={'https://github.com/LaV0n/game'}
                         />
                         <Project style={projectImg.eighth}
                                  title="Web Chat"
                                  description="Chat on socket-io with own server"
                                  link={'https://github.com/LaV0n/chat-websocket-front'}
                         />
-                        <Project style={projectImg.ninth}
-                                 title="Weather APP"
-                                 description="App with responsive design, unit and integration tests."
-                                 link={'https://github.com/LaV0n/weather-app'}
+                        <Project style={projectImg.second}
+                                 title="todolist"
+                                 description="personal todo lists"
+                                 link={'https://lav0n.github.io/it-incubator-todolist/'}
+                        />
+                        <Project style={projectImg.sixth}
+                                 title="Coffee Shop APK"
+                                 description="APK for mobile on React Native"
+                                 link={'https://github.com/LaV0n/coffee_shop'}
                         />
                         <Project style={projectImg.tenth}
                                  title="Rock Paper Scissors Game"
                                  description="easy mobile game on React Native with 3 difficult level"
                                  link={'https://github.com/LaV0n/rock-paper-scissors'}
+                        />
+                        <Project style={projectImg.fourth}
+                                 title="Memory card game"
+                                 description="card game on  vanilla JS"
+                                 link={'https://lav0n.github.io/memory-game/'}
+                        />
+                        <Project style={projectImg.third}
+                                 title="Pet's Shelter"
+                                 description="task with responsive web design on  vanilla JS"
+                                 link={'https://lav0n.github.io/Shelter/'}
                         />
                         <div>
                             <Title></Title>
