@@ -1,9 +1,8 @@
-import React from 'react';
+import React, {MouseEvent, MouseEventHandler, useState} from 'react';
 import style from "./Navbar.module.scss";
 import {IconButton, Menu, MenuItem} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import {Link} from "react-scroll";
-
 
 const options = [
     <a className={style.link} href="#main">main </a>,
@@ -14,9 +13,9 @@ const options = [
 
 export const Navbar = () => {
 
-    const [anchorEl, setAnchorEl] = React.useState(null);
+    const [anchorEl, setAnchorEl] = useState<any>(null);
     const open = Boolean(anchorEl);
-    const handleClick = (event) => {
+    const handleClick = (event:any) => {
         setAnchorEl(event.currentTarget);
     };
     const handleClose = () => {
@@ -81,17 +80,13 @@ export const Navbar = () => {
                         },
                     }}
                 >
-                    {options.map((option) => (
-                        <MenuItem key={option}
-                                  onClick={handleClose}>
+                    {options.map((option,index) => (
+                        <MenuItem  key={index} onClick={handleClose}>
                             {option}
                         </MenuItem>
                     ))}
                 </Menu>
             </div>
         </>
-    )
-        ;
+    );
 }
-
-

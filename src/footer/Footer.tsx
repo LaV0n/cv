@@ -4,16 +4,15 @@ import styleContainer from "./../common/styles/Container.module.css"
 import gitIcon from "../assets/icon/github-svgrepo-com.svg"
 import codewarsIcon from  "../assets/icon/codewars-svgrepo-com.svg"
 import {Link} from "./link/link";
-import Slide from 'react-reveal/Slide'
 import linkedinIcon from "../assets/icon/linkedin-logo-svgrepo-com.svg"
 import telegramIcon from "../assets/icon/telegram-svgrepo-com.svg"
+import { Slide } from 'react-awesome-reveal';
 
 
 export const Footer = () => {
     return (
         <div className={style.footerBlock}>
             < div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <Slide bottom>
                     <h3>LaVon</h3>
                     <form className={style.block}>
                         <Link icon={gitIcon} link='https://github.com/LaV0n'/>
@@ -22,7 +21,6 @@ export const Footer = () => {
                         <Link icon={telegramIcon} link={'https://t.me/lavon_by'}/>
                     </form>
                     <h5>© 2022 all rights reserved </h5>
-                </Slide>
             </div>
         </div>
     );

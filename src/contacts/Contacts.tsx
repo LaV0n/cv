@@ -1,32 +1,20 @@
-import React from 'react';
 import style from "./Contacts.module.scss";
 import styleContainer from "./../common/styles/Container.module.css"
 import {Title} from "../common/components/title/Title";
-import {createMuiTheme, ThemeProvider} from '@mui/material/styles';
+import {createTheme, ThemeProvider} from '@mui/material/styles';
 import {Button, styled, TextField} from "@mui/material";
-import Slide from 'react-reveal/Slide'
 import axios from "axios";
+import { Slide } from 'react-awesome-reveal';
 
-const theme = createMuiTheme({
-    status: {
-        danger: 'primary',
-    },
+const theme = createTheme({
     palette: {
-        button: {
+        info: {
             main: '#00ddce',
-        },
-        personal: {
-            main: '#00ddce',
-        },
-        typography: {
-            fontSize: '100',
-            fontFamily: 'Poppins',
         },
         text: {
             primary: '#fff',
             secondary: 'rgba(253,253,253,0.4)'
         },
-
     }
 });
 const CssTextField = styled(TextField)({
@@ -51,14 +39,14 @@ const CssTextField = styled(TextField)({
 
 export const Contacts = () => {
 
-    const onSubmitHandler=(event)=>{
+    const onSubmitHandler=(event:any)=>{
         event.preventDefault();
         axios.post('https://carnation-pointy-dime.glitch.me/sendMail',{
             name:event.target.nameInput.value,
             email:event.target.mailInput.value,
             data:event.target.massageInput.value
         })
-            .then(alert('your message has been send'))
+            .then(()=>alert('your message has been send'))
 
     }
 
@@ -66,7 +54,6 @@ export const Contacts = () => {
         <ThemeProvider theme={theme}>
             <div id='contacts' className={style.contactsBlock}>
                 < div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                    <Slide bottom>
                         <Title title={'Contacts'} description={'LET\'S TALK'}/>
                         <div className={style.block}>
                             <form className={style.form} onSubmit={onSubmitHandler}>
@@ -90,12 +77,11 @@ export const Contacts = () => {
                                 />
                                 <Button type="submit"
                                         variant="outlined"
-                                        color="button"
+                                        color="info"
                                         size="large"
                                 >send</Button>
                             </form>
                         </div>
-                    </Slide>
                 </div>
             </div>
         </ThemeProvider>

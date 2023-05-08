@@ -1,16 +1,13 @@
-import React from 'react';
 import style from "./Main.module.scss";
 import styleContainer from "./../common/styles/Container.module.css"
 import photo from '../assets/image/LavonTatry.jpg'
-import Slide from 'react-reveal/Slide'
-import ReactTypingEffect from 'react-typing-effect';
-
+import { Slide } from "react-awesome-reveal";
+import Typed from "react-typed"
 
 export const Main = () => {
     return (
         <div id='main' className={style.main}>
             < div className={`${styleContainer.container} ${style.mainContainer}`}>
-                <Slide bottom>
                     <img src={photo} className={style.photo} alt='0'/>
                     <div className={style.greetings}>
                         <h1 className={style.name}>
@@ -19,7 +16,14 @@ export const Main = () => {
                         </h1>
                         <div className={style.description}>
                             <span className={style.title}>
-                                <ReactTypingEffect text={['FRONTEND DEVELOPER']}/>
+                                <Typed
+                                    strings={[
+                                        'Hello Word',
+                                       "I'm FRONTEND DEVELOPER"
+                                    ]}
+                                    typeSpeed={100}
+                                    backSpeed={80}
+                                    loop/>
                                 </span>
                             <p>I'm an ambitious and motivated
                                 Frontend Developer with experience
@@ -33,8 +37,7 @@ export const Main = () => {
                                 and AI.</p>
                         </div>
                     </div>
-                </Slide>
-            </div>
+                </div>
         </div>
     );
 }

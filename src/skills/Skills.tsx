@@ -7,7 +7,6 @@ import htmlIcon from "../assets/icon/html-svgrepo-com.svg"
 import cssIcon from "../assets/icon/css-svgrepo-com.svg"
 import reactIcon from "../assets/icon/react-svgrepo-com.svg"
 import tsIcon from "../assets/icon/typescript-svgrepo-com.svg"
-import Slide from 'react-reveal/Slide'
 import JSIcon from '../assets/icon/java-script.png'
 import apiIcon from '../assets/icon/api.png'
 import sassIcon from '../assets/icon/sass-svgrepo-com.svg'
@@ -16,12 +15,12 @@ import mongodbIcon from '../assets/icon/mongodb-svgrepo-com.svg'
 import githubIcon from '../assets/icon/icons8-github.svg'
 import photoIcon from '../assets/icon/icons8-adobe-photoshop.svg'
 import reduxIcon from '../assets/icon/icons8-redux.svg'
+import { Slide } from 'react-awesome-reveal';
 
 export const Skills = () => {
     return (
         <div id='skills' className={style.skillsBlock}>
             < div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Slide bottom>
                     <Title title={'Skills'} description={'DEVELOPING ON'}/>
                     <div className={style.skills}>
                         <Skill title="React" icon={reactIcon}/>
@@ -38,7 +37,6 @@ export const Skills = () => {
                         <Skill title="GitHub" icon={githubIcon}/>
                         <Skill title="Photoshop" icon={photoIcon}/>
                     </div>
-                </Slide>
             </div>
         </div>
     );

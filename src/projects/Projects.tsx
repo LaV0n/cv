@@ -6,7 +6,6 @@ import {Title} from "../common/components/title/Title";
 import image1 from "./../assets/image/socialNetwork.png"
 import image2 from "./../assets/image/todolists.png"
 import fridayPJ from "./../assets/image/friday.png"
-import Slide from 'react-reveal/Slide'
 import shelterImg from './../assets/image/shelter.jpg'
 import memoryGameImg from '../assets/image/memoryGame.png'
 import coffeeShopImg from '../assets/image/coffeeshop.png'
@@ -14,12 +13,13 @@ import lineGameImg from '../assets/image/lineGame.png'
 import chatImg from '../assets/image/chat.png'
 import weatherImg from '../assets/image/weatherAPP.png'
 import rockGameImg from '../assets/image/rockGame.png'
+import { Slide } from 'react-awesome-reveal';
 
 export const Projects = () => {
     const projectImg ={
-      first:{
-          backgroundImage: `url(${image1})`,
-      },
+        first:{
+            backgroundImage: `url(${image1})`,
+        },
         second:{
             backgroundImage: `url(${image2})`,
         },
@@ -53,7 +53,6 @@ export const Projects = () => {
     return (
         <div id='projects' className={style.projectsBlock}>
             < div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Slide bottom>
                     <Title title="Projects" description={"LATEST WORKS"}/>
                     <div className={style.projects}>
                         <Project style={projectImg.first}
@@ -107,10 +106,8 @@ export const Projects = () => {
                                  link={'https://lav0n.github.io/Shelter/'}
                         />
                         <div>
-                            <Title></Title>
                         </div>
                     </div>
-                </Slide>
             </div>
         </div>
 
