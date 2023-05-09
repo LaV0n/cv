@@ -53,6 +53,7 @@ export const Contacts = () => {
     return (
         <ThemeProvider theme={theme}>
             <div id='contacts' className={style.contactsBlock}>
+                <Slide direction={'up'}  triggerOnce>
                 < div className={`${styleContainer.container} ${style.contactsContainer}`}>
                         <Title title={'Contacts'} description={'LET\'S TALK'}/>
                         <div className={style.block}>
@@ -83,6 +84,7 @@ export const Contacts = () => {
                             </form>
                         </div>
                 </div>
+                </Slide>
             </div>
         </ThemeProvider>
     );

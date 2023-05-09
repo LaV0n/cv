@@ -49,12 +49,12 @@ export const Projects = () => {
         }
     }
 
-
     return (
         <div id='projects' className={style.projectsBlock}>
-            < div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                    <Title title="Projects" description={"LATEST WORKS"}/>
+                < div className={`${styleContainer.container} ${style.projectsContainer}`}>
+                    <Title title="Projects" description={"Pets Apps"}/>
                     <div className={style.projects}>
+                        <Slide direction={'up'} cascade  triggerOnce damping={0.1}>
                         <Project style={projectImg.first}
                                  title="social network"
                                  description="SPA with REST API"
@@ -105,10 +105,11 @@ export const Projects = () => {
                                  description="task with responsive web design on  vanilla JS"
                                  link={'https://lav0n.github.io/Shelter/'}
                         />
+                        </Slide>
                         <div>
                         </div>
                     </div>
-            </div>
+                </div>
         </div>
 
     );

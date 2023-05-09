@@ -23,6 +23,7 @@ export const Skills = () => {
             < div className={`${styleContainer.container} ${style.skillsContainer}`}>
                     <Title title={'Skills'} description={'DEVELOPING ON'}/>
                     <div className={style.skills}>
+                        <Slide direction={'up'} cascade  triggerOnce damping={0.1}>
                         <Skill title="React" icon={reactIcon}/>
                         <Skill title="TypeScript" icon={tsIcon} />
                         <Skill title="JavaScript" icon={JSIcon}/>
@@ -36,6 +37,7 @@ export const Skills = () => {
                         <Skill title="MongoDB" icon={mongodbIcon}/>
                         <Skill title="GitHub" icon={githubIcon}/>
                         <Skill title="Photoshop" icon={photoIcon}/>
+                        </Slide>
                     </div>
             </div>
         </div>

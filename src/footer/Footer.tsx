@@ -15,10 +15,12 @@ export const Footer = () => {
             < div className={`${styleContainer.container} ${style.footerContainer}`}>
                     <h3>LaVon</h3>
                     <form className={style.block}>
+                        <Slide direction={'up'}  cascade  triggerOnce damping={0.1}>
                         <Link icon={gitIcon} link='https://github.com/LaV0n'/>
                         <Link icon={codewarsIcon} link={'https://www.codewars.com/users/LaV0n'}/>
                         <Link icon={linkedinIcon} link={'https://www.linkedin.com/in/alekhnovich-leanid'}/>
                         <Link icon={telegramIcon} link={'https://t.me/lavon_by'}/>
+                        </Slide>
                     </form>
                     <h5>© 2022 all rights reserved </h5>
             </div>

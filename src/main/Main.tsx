@@ -1,14 +1,17 @@
 import style from "./Main.module.scss";
 import styleContainer from "./../common/styles/Container.module.css"
 import photo from '../assets/image/LavonTatry.jpg'
-import { Slide } from "react-awesome-reveal";
+import { Slide, Zoom } from "react-awesome-reveal";
 import Typed from "react-typed"
+import { ParticlesBlock } from "../common/components/particles/Particles";
 
 export const Main = () => {
     return (
         <div id='main' className={style.main}>
+            <Zoom triggerOnce delay={100}>
             < div className={`${styleContainer.container} ${style.mainContainer}`}>
                     <img src={photo} className={style.photo} alt='0'/>
+                <ParticlesBlock/>
                     <div className={style.greetings}>
                         <h1 className={style.name}>
                     <span>Leanid
@@ -38,6 +41,7 @@ export const Main = () => {
                         </div>
                     </div>
                 </div>
+            </Zoom>
         </div>
     );
 }
