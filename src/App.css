@@ -1,4 +1,14 @@
-.App {
-
+#App.dark {
+    --mainColor: rgb(43,50,58);
+    --secondColor: rgb(55, 60, 64);
+    --thirdColor: rgb(89, 93, 101);
+    --activeColor: rgb(0, 223, 206);
+    --textColor:#ffff;
 }
-
+#App.light {
+    --mainColor:#eaf4f4;
+    --secondColor: #cce3de;
+    --thirdColor: #a4c3b2;
+    --activeColor: #05668d;
+    --textColor:#000;
+}

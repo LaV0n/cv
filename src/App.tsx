@@ -5,11 +5,13 @@ import {Skills} from "./skills/Skills";
 import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import { useState } from 'react';
 
 function App() {
+    const [darkMode, setDarkMode] = useState(true);
     return (
-        <div className="App">
-            <Header/>
+        <div id="App" className={darkMode?'dark':'light'}>
+            <Header setDarkMode={setDarkMode} darkMode={darkMode}/>
             <Main/>
             <Skills />
             <Projects/>

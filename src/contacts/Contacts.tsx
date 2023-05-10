@@ -5,53 +5,50 @@ import {createTheme, ThemeProvider} from '@mui/material/styles';
 import {Button, styled, TextField} from "@mui/material";
 import axios from "axios";
 import { Slide } from 'react-awesome-reveal';
+import {FormEvent, useEffect, useState } from "react";
 
-const theme = createTheme({
-    palette: {
-        info: {
-            main: '#00ddce',
-        },
-        text: {
-            primary: '#fff',
-            secondary: 'rgba(253,253,253,0.4)'
-        },
-    }
-});
 const CssTextField = styled(TextField)({
+    '& input':{
+        color: style.textColor
+    },
     '& label.Mui-focused': {
-        color: '#00ddce',
+        color: style.activeColor,
     },
     '& .MuiInput-underline:after': {
-        borderBottomColor: '#00ddce',
+        borderBottomColor: style.activeColor,
     },
     '& .MuiOutlinedInput-root': {
         '& fieldset': {
-            borderColor: 'rgba(253,253,253,0.4)',
+            borderColor: style.thirdColor,
         },
         '&:hover fieldset': {
-            borderColor: 'fff',
+            borderColor: style.textColor,
         },
         '&.Mui-focused fieldset': {
-            borderColor: '#00ddce',
+            borderColor: style.activeColor,
         },
     },
 });
 
 export const Contacts = () => {
 
-    const onSubmitHandler=(event:any)=>{
-        event.preventDefault();
-        axios.post('https://carnation-pointy-dime.glitch.me/sendMail',{
-            name:event.target.nameInput.value,
-            email:event.target.mailInput.value,
-            data:event.target.massageInput.value
-        })
-            .then(()=>alert('your message has been send'))
+    const [disButton,setDisButton]=useState(true)
 
+    const onSubmitHandler=(event:FormEvent<HTMLFormElement>)=>{
+        event.preventDefault();
+        if (event.currentTarget.nameInput.value && event.currentTarget.mailInput.value && event.currentTarget.massageInput.value){
+            axios.post('https://carnation-pointy-dime.glitch.me/sendMail',{
+                name:event.currentTarget.nameInput.value,
+                email:event.currentTarget.mailInput.value,
+                data:event.currentTarget.massageInput.value
+            })
+                    alert('your message has been send')
+        }else{
+            alert('all fields are required')
+        }
     }
 
     return (
-        <ThemeProvider theme={theme}>
             <div id='contacts' className={style.contactsBlock}>
                 <Slide direction={'up'}  triggerOnce>
                 < div className={`${styleContainer.container} ${style.contactsContainer}`}>
@@ -78,7 +75,7 @@ export const Contacts = () => {
                                 />
                                 <Button type="submit"
                                         variant="outlined"
-                                        color="info"
+                                        sx={{color:style.activeColor, borderColor:style.activeColor}}
                                         size="large"
                                 >send</Button>
                             </form>
@@ -86,6 +83,5 @@ export const Contacts = () => {
                 </div>
                 </Slide>
             </div>
-        </ThemeProvider>
     );
 }

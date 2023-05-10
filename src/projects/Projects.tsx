@@ -58,12 +58,12 @@ export const Projects = () => {
                         <Project style={projectImg.first}
                                  title="social network"
                                  description="SPA with REST API"
-                                 link={'https://lav0n.github.io/social-network/'}
+                                 link={'https://github.com/LaV0n/social-network'}
                         />
                         <Project style={projectImg.fifth}
                                  title="Learning cards"
                                  description="learning cards with individual account"
-                                 link={'https://lav0n.github.io/project1/'}
+                                 link={'https://github.com/LaV0n/project1'}
                         />
                         <Project style={projectImg.ninth}
                                  title="Weather APP"
@@ -81,9 +81,9 @@ export const Projects = () => {
                                  link={'https://github.com/LaV0n/chat-websocket-front'}
                         />
                         <Project style={projectImg.second}
-                                 title="todolist"
-                                 description="personal todo lists"
-                                 link={'https://lav0n.github.io/it-incubator-todolist/'}
+                                 title="Todolist"
+                                 description="personal todo lists with API"
+                                 link={'https://github.com/LaV0n/it-incubator-todolist'}
                         />
                         <Project style={projectImg.sixth}
                                  title="Coffee Shop APK"
@@ -98,12 +98,12 @@ export const Projects = () => {
                         <Project style={projectImg.fourth}
                                  title="Memory card game"
                                  description="card game on  vanilla JS"
-                                 link={'https://lav0n.github.io/memory-game/'}
+                                 link={'https://github.com/LaV0n/memory-game'}
                         />
                         <Project style={projectImg.third}
                                  title="Pet's Shelter"
                                  description="task with responsive web design on  vanilla JS"
-                                 link={'https://lav0n.github.io/Shelter/'}
+                                 link={'https://github.com/LaV0n/Shelter'}
                         />
                         </Slide>
                         <div>
