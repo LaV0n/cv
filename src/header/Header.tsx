@@ -24,8 +24,8 @@ export const Header = () => {
     return (
         <div className={style.header} >
             {checked
-                ?<ModeNightIcon onClick={handleChange} style={{color:style.activeColor,cursor:'pointer'}}/>
-                :<LightModeIcon onClick={handleChange} style={{cursor:'pointer'}}/>
+                ?<ModeNightIcon onClick={handleChange} style={{color:style.activeColor,cursor:'pointer',marginLeft:15}}/>
+                :<LightModeIcon onClick={handleChange} style={{cursor:'pointer',marginLeft:15}}/>
             }
             <Navbar/>
         </div>
