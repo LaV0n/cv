@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.65be3225.css",
-    "main.js": "/cv/static/js/main.0a0d6e51.js",
+    "main.css": "/cv/static/css/main.0b58234c.css",
+    "main.js": "/cv/static/js/main.e0f6e990.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/memoryGame.png": "/cv/static/media/memoryGame.493d6113224b29a3014a.png",
     "static/media/socialNetwork.png": "/cv/static/media/socialNetwork.d07468c9e36b790dadd9.png",
@@ -30,12 +30,12 @@
     "static/media/github-svgrepo-com.svg": "/cv/static/media/github-svgrepo-com.a5f3ad5914d1e149cf318f7548155999.svg",
     "index.html": "/cv/index.html",
     "static/media/telegram-svgrepo-com.svg": "/cv/static/media/telegram-svgrepo-com.321a02657812a2b333e11ef22b7509d5.svg",
-    "main.65be3225.css.map": "/cv/static/css/main.65be3225.css.map",
-    "main.0a0d6e51.js.map": "/cv/static/js/main.0a0d6e51.js.map",
+    "main.0b58234c.css.map": "/cv/static/css/main.0b58234c.css.map",
+    "main.e0f6e990.js.map": "/cv/static/js/main.e0f6e990.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65be3225.css",
-    "static/js/main.0a0d6e51.js"
+    "static/css/main.0b58234c.css",
+    "static/js/main.e0f6e990.js"
   ]
 }
