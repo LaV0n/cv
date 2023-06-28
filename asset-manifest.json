@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.0b58234c.css",
-    "main.js": "/cv/static/js/main.64e060f0.js",
+    "main.js": "/cv/static/js/main.e55c117b.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/todolists.png": "/cv/static/media/todolists.31572654d18a5c343546.png",
     "static/media/memoryGame.png": "/cv/static/media/memoryGame.493d6113224b29a3014a.png",
@@ -29,14 +29,15 @@
     "static/media/react-svgrepo-com.svg": "/cv/static/media/react-svgrepo-com.56f9a60157e80b671270fbba0944fa8f.svg",
     "static/media/github-svgrepo-com.svg": "/cv/static/media/github-svgrepo-com.a5f3ad5914d1e149cf318f7548155999.svg",
     "index.html": "/cv/index.html",
+    "static/media/icons8-firebase.svg": "/cv/static/media/icons8-firebase.1beef7b384d8b0973a1dd4878a66d650.svg",
     "static/media/mobx.svg": "/cv/static/media/mobx.e18144faec902e7c704c5427da457dea.svg",
     "static/media/telegram-svgrepo-com.svg": "/cv/static/media/telegram-svgrepo-com.321a02657812a2b333e11ef22b7509d5.svg",
     "main.0b58234c.css.map": "/cv/static/css/main.0b58234c.css.map",
-    "main.64e060f0.js.map": "/cv/static/js/main.64e060f0.js.map",
+    "main.e55c117b.js.map": "/cv/static/js/main.e55c117b.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b58234c.css",
-    "static/js/main.64e060f0.js"
+    "static/js/main.e55c117b.js"
   ]
 }
