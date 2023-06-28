@@ -16,6 +16,7 @@ import githubIcon from '../assets/icon/icons8-github.svg'
 import photoIcon from '../assets/icon/icons8-adobe-photoshop.svg'
 import reduxIcon from '../assets/icon/icons8-redux.svg'
 import mobxIcon from '../assets/icon/mobx.svg'
+import firebaseIcon from '../assets/icon/icons8-firebase.svg'
 import { Slide } from 'react-awesome-reveal';
 
 export const Skills = () => {
@@ -37,6 +38,7 @@ export const Skills = () => {
                         <Skill title="REST API" icon={apiIcon}/>
                         <Skill title="Node JS" icon={nodeIcon}/>
                         <Skill title="MongoDB" icon={mongodbIcon}/>
+                        <Skill title="Firebase" icon={firebaseIcon}/>
                         <Skill title="GitHub" icon={githubIcon}/>
                         <Skill title="Photoshop" icon={photoIcon}/>
                         </Slide>
